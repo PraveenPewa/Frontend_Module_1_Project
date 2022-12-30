@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+html{
+    background-color: black;
+}
+
+                            /* Navbar section */
+.header_wrapper .main-navbar-nav .navbar-toggler{
+    background-color: white;
+}
+
+.header_wrapper .navbar{
+    position: absolute;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+
+                            /* Heading section */
+.heading_section{
+    position: absolute;
+    left: 0px;
+    top: 87px;
+
+}
+
+/* .heading_section .inside_heading_section{
+    position: absolute;
+} */
+
+.heading_section .big-name{
+    position: absolute;
+    width: 100%;
+    height: 745px;
+    left: 96px;
+    top: 229px;
+    color: white;
+
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: my_animation 2s ease-in-out infinite;
+}
+
+@keyframes my_animation{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.heading_section .big-name-logo img{
+    position: absolute;
+    width: 734px;
+    height: 395px;
+    left: 994px;
+    top: 602px;
+}
+
+.heading_section .arrow-down-icon{
+    position: absolute;
+    width: 59px;
+    height: 0px;
+    left: 864px;
+    top: 997px;
+    border: 3px solid #FFFFFF;
+    border-radius: 180px;
+    transform: rotate(90deg);
+}
+
+                        /* About us */
+.about_us_wrapper{
+    position: relative;
+}
+
+.about_us_wrapper .about_us_img img{
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1353px;
+}
+
+.about_us_wrapper .about_us_text{
+    position: relative;
+    width: 912px;
+    height: 225px;
+}
+
+.about_us_wrapper .about_us_title{
+    position: absolute;
+    width: 912px;
+    height: 225px;
+    left: 747px;
+    top: 1352px;
+
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+}
+
+.about_us_wrapper .about_us_para{
+    position: absolute;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 1525px;
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
